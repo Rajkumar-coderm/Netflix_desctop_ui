@@ -422,16 +422,15 @@
 }
 
 .lang-icon-2{
-    align-self: start;
-    margin-left: 30.5rem;
+    align-items: center;
+    margin-left: -43rem;
     margin-top: 2rem;
 }
 
 
 .netflix-ind{
-    align-self: start;
-    margin-left: 30.5rem;
-    margin-top: 1.3rem;
+    align-items: center;
+    margin-left: -47rem;
+    margin-top: 2rem;
     font-size: 1rem;
-
 }
