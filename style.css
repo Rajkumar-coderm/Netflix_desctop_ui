@@ -323,6 +323,61 @@
     font-size: 1.7rem;
 }
 
+.containt-details-1{
+    display: none;
+    width: 47rem;
+    font-size: 1.3rem;
+    background-color:#303030;
+    margin-top: -0.8rem;
+}
+
+.containt-details-2{
+    display: none;
+    width: 47rem;
+    font-size: 1.3rem;
+    background-color:#303030;
+    margin-top: -0.8rem;
+}
+.containt-details-3{
+    display: none;
+    width: 47rem;
+    font-size: 1.3rem;
+    background-color:#303030;
+    margin-top: -0.8rem;
+}
+.containt-details-4{
+    display: none;
+    width: 47rem;
+    font-size: 1.3rem;
+    background-color:#303030;
+    margin-top: -0.8rem;
+}
+.containt-details-5{
+    display: none;
+    width: 47rem;
+    font-size: 1.3rem;
+    background-color:#303030;
+    margin-top: -0.8rem;
+}
+.containt-details-6{
+    display: none;
+    width: 47rem;
+    font-size: 1.3rem;
+    background-color:#303030;
+    margin-top: -0.8rem;
+}
+
+
+.detail-1{
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+.detail-2{
+    padding: 1rem 2rem 2rem 2rem;
+    font-size: 1.5rem;
+}
+
 .story-cards-main{
     display: flex;
     flex-direction: column;
@@ -346,6 +401,50 @@
 }
 
 .plus-icon{
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+}
+
+#close-1{
+    display: none;
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+}
+
+#close-2{
+    display: none;
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+}
+
+#close-3{
+    display: none;
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+}
+
+
+#close-4{
+    display: none;
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+}
+
+
+#close-5{
+    display: none;
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+}
+
+#close-6{
+    display: none;
     width: 2.3rem;
     height: 2.3rem;
     cursor: pointer;
@@ -406,10 +505,8 @@
 
 .erth-icon-2{
     padding: 0 0.3rem;
-    margin-top: 0.8rem;
     width: 1.2rem;
     height: 1.2rem;
-    /* background-color: white; */
     color: #757575;
 }
 
@@ -434,3 +531,5 @@
     margin-top: 2rem;
     font-size: 1rem;
 }
+
+
