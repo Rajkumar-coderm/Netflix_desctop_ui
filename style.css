@@ -5,6 +5,11 @@
     font-family: 'Open Sans';
 }
 
+.lang-sign a{
+    text-decoration: none;
+    color: white;
+    width: 400;
+}
 .netflix-ico{
     width: 11rem;
     height: 11rem;
