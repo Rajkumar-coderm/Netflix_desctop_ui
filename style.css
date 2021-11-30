@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.netflix-ico{
+    width: 11rem;
+    height: 11rem;
+    margin-top: -4rem;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.nav-heading{
+    color: red;
+    width: 700;
+    font-size: 2rem;
+}
+
+.lang-sign{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: red; */
+}
+
+.lang-icon{
+    display: flex;
+    border: 1px solid white;
+    width: 7rem;
+    height: 2rem;
+}
+
+.erth-icon{
+    padding: 0 0.3rem;
+    margin-top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    /* background-color: white; */
+    color: white;
+}
+
+.lang-sign select{
+    width: 100%;
+    /* background-color: white; */
+    background-color: #00000009;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.lang-sign button{
+    width: 6rem;
+    height: 2.3rem;
+    border-radius: 0.4rem;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+}
+
+
+/* !hero section */
+
+.main-containt{
+    background-image:radial-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.774)), url('./img/hero-bg.jpg');
+    background-size: cover;
+    position: 100 100;
+    height: 50rem;
+    border-bottom: 0.4rem solid rgba(128, 128, 128, 0.5);  
+}
+
+.hero-section{
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-getstart{
+    display: flex;
+    padding: 2rem;
+}
+
+.input-getstart input{
+    padding: 1rem  15rem 1rem 1rem;
+    border-bottom: 2px solid yellow !important;
+    outline: none;
+    border: 1px solid white;
+    font-size: 1rem;
+}
+
+
+.heading-hero{
+    width: 40rem;
+    text-align: center;
+}
+
+.heading-hero h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.para-1{
+    font-size: 1.4rem;
+    line-height: 4rem;
+    color: white;
+}
+
+.para-2{
+    font-size: 1.1rem;
+    /* line-height: 3rem; */
+    color: white;
+}
+
+.para-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    padding: 1rem  1rem 1rem 2rem;
+    cursor: pointer;
+}
+
+.para-icon p{
+    font-size: 1.7rem;
+    color: white;
+}
+
+.forward{
+    margin-top: 0.7rem;
+    width: 2rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    color: white;
+}
+
+
+/* !Second section */
+
+.second-main{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    border-bottom: 0.4rem solid rgba(128, 128, 128, 0.5); 
+}
+
+.heading-second-section{
+    width: 34rem;
+}
+.heading-second-section h2{
+    font-size: 3.4rem;
+    line-height:8rem;
+}
+
+.heading-second-section p{
+    font-size: 1.5rem;
+}
+
+
+/* !Section third */
+
+.blue{
+    color: blue;
+}
+
+.third-main{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 35rem;
+    border-bottom: 0.4rem solid rgba(128, 128, 128, 0.5); 
+}
+
+.smaoll-crd{
+    color: white;
+    padding: 0 1rem;
+    margin-left: 6.3rem;
+    border: 2px solid rgba(128, 128, 128, 0.808);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+    border-radius: 0.7rem;
+    position: absolute;
+    top: 65%;
+    background: #000;
+
+}
+
+.smaoll-crd img{
+    height: 80px;
+}
+
+.smaoll-crd p{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding:0 1rem;
+}
+
+.download-icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.containtant-third{
+    width: 30rem;
+    margin-left: 6rem;
+    color: white;
+}
+
+.containtant-third h2{
+    font-size: 2.7rem;
+}
+
+.containtant-third p{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.images-writ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-mobile{
+    width: 33rem;
+}
+
+
+/* !fourth section */
+.fourt-main{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-bottom: 0.4rem solid rgba(128, 128, 128, 0.5); 
+
+}
+
+.fourth-contain{
+    width: 30rem;
+}
+
+.fourth-contain h2{
+    font-size: 2.8rem;
+    line-height: 5rem;
+}
+
+.fourth-contain p{
+    font-size: 1.4rem;
+}
+
+
+/* !Section five */
+
+.five-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 5rem;
+    background-color: black;
+    color: white;
+    border-bottom: 0.4rem solid rgba(128, 128, 128, 0.5); 
+}
+
+.five-containtan{
+    width: 30rem;
+}
+
+.five-containtan h2{
+    font-size: 2.7rem;
+    padding-bottom: 1.5rem;
+}
+
+.five-containtan p{
+    font-size: 1.4rem;
+}
+
+
+
+/* !six section */
+
+.six-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    border-bottom: 0.4rem solid rgba(128, 128, 128, 0.5); 
+
+}
+
+.story-card{
+    display: flex;
+    justify-content: space-between;
+    width: 47rem;
+    background-color:#303030;
+    height: 4.3rem;
+    align-items: center;
+    padding: 0 2rem;
+    font-size: 1.7rem;
+}
+
+.story-cards-main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+}
+
+.pata-2-3{
+    padding-top: 3rem;
+    margin-bottom: -2rem;
+    font-size: 1rem;
+}
+
+.six-main h1{
+    font-size: 2.7rem;
+    line-height: 5rem;
+}
+
+.plus-icon{
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+}
+
+
+/* !footer section */
+
+.list-of-containtain{
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+}
+
+.footer-main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    background-color: black;
+}
+
+.call{
+    margin-left: -26.5rem;
+    font-size: 1.2rem;
+    line-height: 5rem;
+}
+
+.list-all{
+    list-style: none;
+}
+
+.list-all li{
+    padding: 0.3rem;
+}
+
+.list-all a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 0.8rem;
+}
+
+.list-all a:hover{
+    text-decoration: underline;
+}
+
+
+
+.lang-icon-2{
+    display: flex;
+    border: 1px solid #757575;
+    width: 8rem;
+    height: 3rem;
+    margin-right: 2rem;
+}
+
+.erth-icon-2{
+    padding: 0 0.3rem;
+    margin-top: 0.8rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    /* background-color: white; */
+    color: #757575;
+}
+
+.lang-icon-2 select{
+    background-color: #000;
+    border: none;
+    outline: none;
+    color: #757575;
+    font-size: 1rem;
+}
+
+.lang-icon-2{
+    align-self: start;
+    margin-left: 30.5rem;
+    margin-top: 2rem;
+}
+
+
+.netflix-ind{
+    align-self: start;
+    margin-left: 30.5rem;
+    margin-top: 1.3rem;
+    font-size: 1rem;
+
+}
