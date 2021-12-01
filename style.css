@@ -150,13 +150,17 @@
 }
 
 
+
+
 /* !Second section */
 
 .second-main{
+    height: 35rem;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10rem;
     color: blanchedalmond;
     border-bottom: 0.4rem solid rgba(128, 128, 128, 0.5); 
 }
@@ -172,6 +176,17 @@
 .heading-second-section p{
     font-size: 1.5rem;
 }
+
+.video-img{
+    position: relative;
+}
+
+.tv-img{
+    position: absolute;
+    top: -35%;
+    left: -17%;
+}
+
 
 
 /* !Section third */
@@ -249,15 +264,33 @@
 
 /* !fourth section */
 .fourt-main{
-    padding: 2rem;
+    height: 35rem;
+    padding-bottom: 10rem !important;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 10rem;
     align-items: center;
     background-color: black;
     color: white;
     border-bottom: 0.4rem solid rgba(128, 128, 128, 0.5); 
 
+}
+
+.video-2{
+    width: 22rem;
+    height: 25rem;
+}
+
+.video-img-2{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.img-2{
+    position: absolute;
+    top: 15%;
+    left: -30%;
 }
 
 .fourth-contain{
